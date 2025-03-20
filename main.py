@@ -7,48 +7,12 @@ from datetime import datetime
 st.markdown(
     """
     <style>
-    /* Main app background */
-    .stApp {
-        background-image: url("https://avatars.mds.yandex.net/i?id=61cd104365ec29abe7b2c96dce65674ba2976e15-5870594-images-thumbs&n=13");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    .stApp::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
-        z-index: 0;
-    }
-
-    /* Sidebar background */
-    [data-testid="stSidebar"] {
-        background-image: url("https://avatars.mds.yandex.net/i?id=2b5cf8cf8b571fbdcce88c87a5fda7e1e7f3bcf3-5243206-images-thumbs&n=13");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    [data-testid="stSidebar"]::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
-        z-index: -1;
-    }
+   
 
     /* Button styling */
     .stButton button {
-        background-color: #4CAF50;
-        color: white;
+        background-color: blue;
+        color: black;
         border-radius: 5px;
         padding: 10px 20px;
         font-size: 16px;
