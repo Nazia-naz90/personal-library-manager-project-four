@@ -1,0 +1,18 @@
+[
+    {
+        "title": "THE WEALTH OF NATIONS",
+        "author": "ADAM SMITH",
+        "year": "1776",
+        "genre": "1st",
+        "read": false,
+        "pdf_file": "uploaded_books\\The Wealth of Nations Author Adam Smith.pdf"
+    },
+    {
+        "title": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
+        "author": "William Shakespeare",
+        "year": "1607",
+        "genre": "1st",
+        "read": true,
+        "pdf_file": "uploaded_books\\12 Antony and Cleopatra author William Shakespeare.pdf"
+    }
+]
